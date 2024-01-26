@@ -1,0 +1,32 @@
+REM Comienzo de primer ducky
+DEFAULT_DELAY 100
+GUI r
+DELAY 500
+STRING notepad.exe
+ENTER
+DELAY 1000
+STRING Hello World!
+STRING ¿Estas seguro de que no puedo utilizar tu ordenador? 
+ENTER
+STRING Pues atento...
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd.exe
+ENTER
+DELAY 500
+ENTER
+STRING mkdir exploit
+ENTER
+DELAY 300
+STRING nslookup myip.opendns.com resolver1.opendns.com>>exploit\iphackeo.txt
+ENTER
+DELAY 200
+STRING echo off
+ENTER
+STRING Me quedo con tu ip
+ENTER
+STRING echo Gracias!!
+STRING echo on
+
+
